@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+
+
+    <head>
+
+        <title>Objava projekta</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="projectInput.css">
+
+    </head>
+
+
+
+    <body>
+
+        
+        <div class="traka"> <!-- zelena traka -->
+
+            <a href="Index.html"><h2><i>R sustav</i></h2></a>
+
+        </div> <!-- kraj zelene trake -->
+
+    <div id="kucica">
+
+        <h3>OBJAVA PROJEKTA</h3>
+          
+
+        <form action="projectInput.php" method="POST">
+
+            <input type="text" name="naziv" id="naziv" placeholder="Naziv projekta" required>
+
+            <br>
+            <input type="text" name="vlasnik" id="vlasnik" placeholder="Korisničko ime tvrtke" required>
+            
+            <br>
+            <input type="text" name="direktor" id="direktor" placeholder="Izvršni direktor" required>
+            
+            <br>
+            <input type="email" name="email" id="email" placeholder="E-mail" required>
+            
+            <br>
+            <input type="text" name="kontakt" id="kontakt" placeholder="Kontakt broj" required>
+            
+            <select name="kategorija" id="kategorija">
+                <option value="Nema" disabled selected>Kategorija</option>
+                <option value="Računarstvo (IT, Telekomunikacije)">RAČUNARSTVO (IT, TELEKOMUNIKACIJE)</option>
+                <option value="Građevina (građevinski materijal, radovi)">GRAĐEVINA (GRAĐEVINSKI MATERIJAL, RADOVI)</option>
+                <option value="Poljoprivreda i šumarstvo">POLJOPRIVREDA I ŠUMARSTVO</option>
+                <option value="Prijevoz (transport)">PRIJEVOZ (TRANSPORT)</option>
+                <option value="Turizam i ugostiteljstvo">TURIZAM I UGOSTITELJSTVO</option>
+                <option value="Ekonomija, financije i računovodstvo">EKONOMIJA, FINANCIJE I RAČUNOVODSTVO</option>
+                <option value="Strojarstvo">STROJARSTVO</option>
+                <option value="Sigurnost i zaštita">SIGURNOST I ZAŠTITA</option>
+                <option value="Trgovina">TRGOVINA</option>
+                <option value="Instalacije, održavanje i popravci">INSTALACIJE, ODRŽAVANJE I POPRAVCI</option>
+            </select>
+
+            <br>
+            <textarea id="opis" name="opis" rows="10" cols="41" placeholder="Opis projekta." required></textarea>
+
+            <textarea id="tagovi" name="tagovi" rows="10" cols="54" placeholder="Tagovi za pretraživanje." required></textarea>
+
+            <br>
+            <textarea id="suradnici" name="suradnici" rows="10" cols="54" placeholder="Suradnici na projektu." required></textarea>
+
+            <br>
+            <input type="reset" name="reset" id="reset" value="Obriši">
+            
+            <br>
+            <input type="submit" name="submit" id="submit" value="Objavi">
+
+        </form>
+
+    </div>
+
+    </body>
+
+</html>

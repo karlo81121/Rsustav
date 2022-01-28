@@ -1,0 +1,107 @@
+
+body {
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+
+.traka {
+    background-color:#009578;
+    border: 1px solid #009578;
+    width: 2000px;
+    height: 45px;
+    position: relative;
+    top: -8px;
+    left: -8px;
+}
+
+
+h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFFFFF;
+    position: relative;
+    top:-26px;
+    left: 100px;
+}
+
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+    top: -10px;
+    left: 495px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.pocetna_linija {
+    width: 100%;
+    position: relative;
+    top: 111px;
+}
+
+
+.granica {
+    width: 50%;
+}
+
+
+#kutija {
+    margin-top: 200px;
+}
+
+
+#kutija h2, p {
+    margin-left: 500px;
+    max-width: 905px;
+    word-wrap:break-word;
+}
+
+
+#tags {
+    width: 225px;
+    height: 25px;
+    margin: 8px;
+    position: relative;
+    top: 120px;
+    left: 500px;
+}
+
+
+#pretrazi {
+    color: #FFFFFF;
+    background-color: #009578;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #009578;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 2;
+    position: relative;
+    top: 120px;
+    left: 510px;
+    cursor: pointer;
+}
+
+
+form {
+    position: relative;
+    top: -20px;
+    left: -5px;
+}
+
+

@@ -1,0 +1,78 @@
+
+body {
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+
+.traka {
+    background-color:#009578;
+    border: 1px solid #009578;
+    width: 2000px;
+    height: 45px;
+    position: relative;
+    top: -116px;
+    left: -8px;
+}
+
+
+h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFFFFF;
+    position: relative;
+    top:-26px;
+    left: 100px;
+}
+
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+    top: -71px;
+    left: 495px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.pocetna_linija {
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+
+
+.granica {
+    width: 50%;
+}
+
+
+#kutija {
+    margin-top: 200px;
+}
+
+
+#kutija h2 {
+    margin-left: 500px;
+    max-width: 905px;
+    word-wrap:break-word;
+}
+
+
+#kutija p {
+    margin-left: 500px;
+}
+

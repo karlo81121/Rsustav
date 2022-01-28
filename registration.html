@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <title>Registracija</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="registration.css">
+
+    </head>
+
+    <body>
+
+        <div id="register">
+
+            <div id="logo_field">
+                <a href="index.html"><h2><i>R sustav</i></h2></a>
+            </div>
+
+            <div class="login_inf">
+
+                <div id="h1_position">
+                    <h1>REGISTRACIJA</h1>
+                </div>  
+                
+                <br>
+
+                <form action="registration.php" method="POST">
+
+                    <input type="text" name="name" id="name" placeholder="Naziv tvrtke" required>
+                    <br>
+                    <input type="text" name="username" id="username" placeholder="Korisničko ime tvrtke" required>
+
+                    <br>
+
+                    <select name="county" id="county" required>
+
+                        <option value="none" disabled selected>Odaberi županiju</option>
+                        <option value="ZAGREBAČKA">ZAGREBAČKA</option>
+                        <option value="KRAPINSKO-ZAGORSKA">KRAPINSKO-ZAGORSKA</option>
+                        <option value="SISAČKO-MOSLAVAČKA">SISAČKO-MOSLAVAČKA</option>
+                        <option value="KARLOVAČKA">KARLOVAČKA</option>
+                        <option value="VARAŽDINSKA">VARAŽDINSKA</option>
+                        <option value="KOPRIVNIČKO-KRIŽEVAČKA">KOPRIVNIČKO-KRIŽEVAČKA</option>
+                        <option value="BJELOVARSKO-BILOGORSKA">BJELOVARSKO-BILOGORSKA</option>
+                        <option value="PRIMORSKO-GORANSKA">PRIMORSKO-GORANSKA</option>
+                        <option value="LIČKO-SENJSKA">LIČKO-SENJSKA</option>
+                        <option value="OSJEČKO-BARANJSKA">OSJEČKO-BARANJSKA</option>
+                        <option value="VIROVITIČKO-PODRAVSKA">VIROVITIČKO-PODRAVSKA</option>
+                        <option value="POŽEŠKO-SLAVONSKA">POŽEŠKO-SLAVONSKA</option>
+                        <option value="ŠIBENSKO-KNINSKA">ŠIBENSKO-KNINSKA</option>
+                        <option value="VUKOVARSKO-SRIJEMSKA">VUKOVARSKO-SRIJEMSKA</option>
+                        <option value="SPLITSKO-DALMATINSKA">SPLITSKO-DALMATINSKA</option>
+                        <option value="ISTARSKA">ISTARSKA</option>
+                        <option value="DUBROVAČKO-NERETVANSKA">DUBROVAČKO-NERETVANSKA</option>
+                        <option value="MEĐIMURSKA">MEĐIMURSKA</option>
+                        <option value="GRAD ZAGREB">GRAD ZAGREB</option>
+                        <option value="ZADARSKA">ZADARSKA</option>
+                        <option value="BRODSKO-POSAVSKA">BRODSKO-POSAVSKA</option>
+                    
+                    </select>
+
+                    <br>
+
+                    <input type="text" name="city" id="city" placeholder="Grad" required>
+                    <input type="text" name="postal" id="postal" placeholder="Poštanski broj" required>
+
+                    <br>
+
+                    <input type="text" name="email1" id="email1" placeholder="E-mail" required>
+                    <br>
+                    <input type="text" name="email2" id="email2" placeholder="Ponovi e-mail" required>
+                    <br>
+                    <input type="password" name="pass1" id="pass1" placeholder="Lozinka" required>
+                    <br>
+                    <input type="password" name="pass2" id="pass2" placeholder="Ponovi lozinku" required>
+                    <br>
+                    
+                    <br>
+                    <input type="submit" id="btn" value="Registriraj me">
+
+                </form>
+
+            </div>
+
+    </body>
+
+</html>

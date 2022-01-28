@@ -1,0 +1,446 @@
+ 
+body {
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    height: 1500px;
+}
+
+
+.traka {
+    background-color:#009578;
+    border: 1px solid #009578;
+    width: 2000px;
+    height: 45px;
+    position: relative;
+    top: -8px;
+    left: -8px;
+}
+
+
+section {
+    position: relative;
+    top: -75px;
+    left: 1700px;
+}
+
+
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    color: #FFFFFF;
+}
+
+
+h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFFFFF;
+    position: relative;
+    top:-26px;
+    left: 100px;
+}
+
+
+h3 {
+    color: #006652;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #006652;
+}
+
+
+#moto p {
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+
+#moto {
+    position: relative;
+    top: 150px;
+    left: 350px;
+}
+
+
+#slika_banner {
+    position: relative;
+    top: 0px;
+    left: 1000px;
+}
+
+
+#slika_plus_crte {
+    position: relative;
+    top: -120px;
+    left: 0px;
+}
+
+
+#slika_crta_1 {
+    border: 1px solid #CCCCCC;
+    width: 947px;
+    position: relative;
+    top: -35px;
+    left: 191px;
+}
+
+
+#slika_crta_2 {
+    border: 1px solid #CCCCCC;
+    width: 198px;
+    position: relative;
+    top: -37px;
+    left: 1156px;
+}
+
+
+#slika_crta_3 {
+    border: 1px solid #CCCCCC;
+    width: 315px;
+    position: relative;
+    top: -39px;
+    left: 1377px; 
+}
+
+
+a {
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
+#about_naslov {
+    position: relative;
+    top: -130px;
+    left: 350px;
+}
+
+
+#about_opis {
+    position: relative;
+    top: -130px;
+    left: 355px;
+}
+
+
+#about_opis p {
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+
+ul li {
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+
+#first_line {
+    position: relative;
+    top: -185px;
+    width: 1500px;
+}
+
+
+#second_line {
+    position: relative;
+    top: -235px;
+    width: 1500px;
+}
+
+
+#grid-container {
+    flex-direction: column;
+    row-gap: 10px;
+    position: relative;
+    top: -90px;
+    left: 327px;
+}
+
+
+#grid-container {
+    display: grid;
+    grid-column: 5px;
+    grid-row: 5px;
+    grid-template-rows: 220px 220px 220px;
+    grid-template-columns: repeat(5, 250px);
+}
+
+
+#grid-container .kontejner {
+    display: grid;
+    background-color:#009578;
+    border: 2px solid #006651; 
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    padding-left: 20px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13.8px;
+    transition: transform 0.3s;
+}
+
+
+#grid-container .kontejner:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+}
+
+
+/* POČETAK CSS dijela za objavu projekata */
+
+
+#posting_kucica p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    font-size: 22px;
+}
+
+
+#posting_kucica {
+    border: 1px solid #FFFFFF;
+    width: 850px;
+    height: 300px;
+    position: relative;
+    top: -150px;
+    left: 25%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 10px #CCCCCCD0;
+    box-shadow: 0 0 10px #CCCCCCD0;
+}
+
+
+/* KRAJ CSS dijela za objavu projekata */
+
+
+#objavi_projekt_btn {
+    background-color: #009578;
+    color: #FFFFFF;
+    width: 250px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #006652;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+
+#objavi_projekt_btn:hover {
+    cursor: pointer;
+    border: 2px solid #006652;
+}
+
+
+#upit {
+    position: relative;
+    top: -340px;
+    left: 1080px;
+    border: 1px solid #FFFFFF;
+    width: 410px;
+    height: 100px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 10px #CCCCCCD0;
+    box-shadow: 0 0 10px #CCCCCCD0;
+}
+
+
+#upit p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    font-size: 22px;
+}
+
+#upit #upit_btn {
+    background-color: #009578;
+    color: #FFFFFF;
+    width: 250px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #006652;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+
+#upit #upit_btn:hover {
+    cursor: pointer;
+    border: 2px solid #006652;
+}
+
+
+/* POČETAK CSS dijela za prava */
+
+#prava_position {
+    position: relative;
+    top: -50px;
+    padding-bottom: 50px;
+}
+
+
+#prava_position p {
+    font-size: 1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+/* KRAJ CSS dijela za prava */
+
+
+/* POČETAK pozicioniranja kategorija */
+
+#rac_position {
+    position: relative;
+    top: 15px;
+    left: 50px; 
+}
+
+
+#grad_position {
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+
+#poljisum_position {
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+
+#trans_position {
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+
+#turiz_position {
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+
+#ekon_position {
+    position: relative;
+    top: 0px;
+    left: 50px;
+}
+
+
+#stroj_position {
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+
+#sig_position {
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+
+#trg_position {
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+
+#insta_position {
+    position: relative;
+    top: 0px;
+    left: 50px;
+}
+
+
+#rac_text_pos {
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+
+
+#grad_text_pos {
+    position: relative;
+    top: 20px;
+    left: -7px;
+}
+
+
+#poljisum_text_pos {
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+
+#trans_text_pos {
+    position: relative;
+    top: 25px;
+    left: 5px;
+}
+
+
+#turiz_text_pos {
+    position: relative;
+    top: 20px;
+    left: 25px;
+}
+
+
+#ekon_text_pos {
+    position: relative;
+    top: 20px;
+    left: 2px;
+}
+
+
+#stroj_text_pos {
+    position: relative;
+    top: 25px;
+    left: 40px;
+}
+
+
+#sig_text_pos {
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+
+
+#trg_text_pos {
+    position: relative;
+    top: 25px;
+    left: 50px;
+}
+
+
+#insta_text_pos {
+    position: relative;
+    top: 20px;
+    left: -8px;
+}
+
+/* KRAJ pozicioniranja kategorija */
